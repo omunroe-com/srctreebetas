@@ -9,5 +9,4 @@ After downloading and installing your preferred beta client, you can stay up-to-
 * Use the beta version to get in app prompts to update to the latest beta version 
 * Clone the SourceTree Betas repo in SourceTree to get in app notifications of any changes 
 
-Your beta release will be installed as SourceTree Beta. Please keep in mind that beta releases will have features in early preview, and may have stability or performance issues. Please report any issues here: https://support.atlassian.com/projects/STSP. 
-
+Your beta release will be installed as SourceTree Beta. Please keep in mind that beta releases will have features in early preview, and may have stability or performance issues. Please report any issues here: https://jira.atlassian.com/secure/RapidBoard.jspa?rapidView=1574.
