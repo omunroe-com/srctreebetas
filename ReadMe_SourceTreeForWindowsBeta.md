@@ -31,7 +31,7 @@ The change in the installer results in a number of differences in the installati
     * %localappdata%\Atlassian\SourceTree.exe_Url_{hash}\{version}
         * user.config
 * Beta: 
-    * %localappdata%\SourceTree\AppData\Local\Atlassian\SourceTree
+    * %localappdata%\SourceTree-Settings\beta
         * embedded dvcs installs
         * account settings
         * bookmarks
@@ -43,6 +43,8 @@ The change in the installer results in a number of differences in the installati
 At this time the Beta intentionally does *NOT* share the same data as a production installation. This is to isolate the Beta and allow it flexibility to change data formats etc without affecting any production installation.
 It is possible to override this isolation by changing the application's configuration. See _Useful Settings_ below
 
+*NB.* Beta version 1.9.0-beta-5 used _%localappdata%\SourceTree\AppData\Local\Atlassian\SourceTree_ for settings, however this would be wiped after every update/re-install the new _%localappdata%\SourceTree-Settings\beta_ , as of 1.9.1-beta-1, location will persist more settings between updates.
+However, entries in the user.config, as _%localappdata%\Atlassian\SourceTree.exe_Url_{hash}\{version}_ will still currently get reset
 ## Update
 
 The change to Squirrel from AdvancedInstaller has changed the update process. At this time this is semi-manual, it requires the user to check for updates. More automation to this process is coming.
